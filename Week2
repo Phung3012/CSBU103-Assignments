@@ -1,1 +1,124 @@
+<!DOCTYPE html>
+<!-- Khai báo đây là tài liệu HTML5 -->
+<html lang="vi">
+<!-- Thuộc tính lang="vi" cho biết ngôn ngữ chính của trang là tiếng Việt -->
+<head>
+    <!-- Thẻ <meta charset="UTF-8"> khai báo bảng mã ký tự là UTF-8 để hiển thị được tiếng Việt -->
+    <meta charset="UTF-8">
+    <!-- Thẻ <meta name="viewport"> giúp trang web hiển thị đúng kích thước trên mọi thiết bị (điện thoại, máy tính) -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Thẻ <title> hiển thị tiêu đề trang ở tab trình duyệt -->
+    <title>CV Nguyễn Thị Cẩm Phụng</title>
+</head>
 
+<body>
+    <!-- Thẻ <header> chứa phần đầu trang, thường gồm tên, chức danh, ảnh đại diện -->
+    <header>
+        <!-- <h1> là tiêu đề chính của trang, thể hiện tên cá nhân -->
+        <h1>Nguyễn Thị Cẩm Phụng</h1>
+        <!-- <p> là đoạn văn ngắn mô tả chức danh hoặc ngành học -->
+        <p><strong>Sinh viên Khoa học máy tính</strong></p>
+
+        <!-- <figure> dùng để nhóm ảnh và phần chú thích liên quan -->
+        <figure>
+            <!-- <img> chèn ảnh đại diện, thuộc tính src chỉ đường dẫn file ảnh -->
+            <img src="anh.jpg" alt="Ảnh đại diện Nguyễn Thị Cẩm Phụng" width="150">
+            <!-- <figcaption> là chú thích cho hình ảnh -->
+            <figcaption>Ảnh đại diện</figcaption>
+        </figure>
+
+        <!-- <hr> tạo đường kẻ ngang phân cách nội dung -->
+        <hr>
+    </header>
+
+    <!-- Thẻ <main> chứa nội dung chính của toàn bộ CV -->
+    <main>
+        <!-- Mỗi phần lớn trong nội dung được đặt trong một <section> -->
+        <section>
+            <!-- <h2> là tiêu đề phụ cho từng phần nội dung -->
+            <h2>Thông tin liên hệ</h2>
+            <!-- <ul> tạo danh sách gạch đầu dòng -->
+            <ul>
+                <!-- <li> là từng mục trong danh sách -->
+                <li><strong>📞 Số điện thoại:</strong> 0977648910</li>
+                <li><strong>✉️ Email:</strong> 25560047@gm.uit.edu.vn</li>
+                <li><strong>🎂 Ngày sinh:</strong> 27/08/2007</li>
+                <li><strong>🏠 Địa chỉ:</strong> Chung cư Charm Plaza, Dĩ An, TP.HCM</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Mục tiêu nghề nghiệp</h2>
+            <!-- <p> trình bày đoạn mô tả chi tiết về mục tiêu nghề nghiệp -->
+            <p>
+                Tôi mong muốn trở thành một Web Developer chuyên nghiệp, có thể thiết kế và phát triển 
+                các trang web sáng tạo, tối ưu trải nghiệm người dùng. 
+                Tôi đang nỗ lực học hỏi không ngừng để phát triển bản thân và đóng góp tích cực cho các dự án thực tế.
+            </p>
+        </section>
+
+        <section>
+            <h2>Học vấn</h2>
+            <!-- <article> biểu thị một mục thông tin độc lập, ví dụ một trường học -->
+            <article>
+                <h3>Trường THPT Dĩ An (2022–2025)</h3>
+            </article>
+
+            <article>
+                <h3>Trường Đại học Công Nghệ Thông Tin – ĐHQG TP.HCM (2025–nay)</h3>
+                <p>Ngành học: Khoa học máy tính</p>
+            </article>
+        </section>
+
+        <section>
+            <h2>Kỹ năng</h2>
+            <!-- Liệt kê kỹ năng trong danh sách -->
+            <ul>
+                <li>HTML, CSS, JavaScript cơ bản</li>
+                <li>Kỹ năng giao tiếp</li>
+                <li>Khả năng làm việc nhóm</li>
+                <li>Tư duy logic và học hỏi nhanh</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Trình độ ngoại ngữ</h2>
+            <!-- Đoạn mô tả ngắn trình độ tiếng Anh -->
+            <p>IELTS 5.5</p>
+        </section>
+
+        <section>
+            <h2>Kinh nghiệm học tập & dự án</h2>
+            <article>
+                <h3>Dự án cá nhân: Website giới thiệu bản thân</h3>
+                <ul>
+                    <li>Tự học HTML, CSS và JavaScript để xây dựng trang CV cá nhân.</li>
+                    <li>Áp dụng kiến thức bố cục trang web.</li>
+                    <li>Tập trung vào khả năng trình bày thông tin rõ ràng, dễ đọc.</li>
+                </ul>
+            </article>
+        </section>
+
+        <section>
+            <h2>Chứng chỉ</h2>
+            <ul>
+                <li>IELTS 5.5</li>
+            </ul>
+        </section>
+    </main>
+
+    <!-- <aside> là phần thông tin phụ, bổ sung cho nội dung chính -->
+    <aside>
+        <h2>Thông tin thêm</h2>
+        <p>Hiện đang học tại Trường Đại học Công Nghệ Thông Tin – ĐHQG TP.HCM.</p>
+        <p>Mong muốn phát triển bản thân trong lĩnh vực lập trình web và UI/UX.</p>
+    </aside>
+
+    <!-- <footer> là phần chân trang, thường chứa bản quyền hoặc liên hệ -->
+    <footer>
+        <hr>
+        <p>© 2025 Nguyễn Thị Cẩm Phụng | Sinh viên UIT - Khoa học máy tính</p>
+    </footer>
+
+</body>
+</html>
